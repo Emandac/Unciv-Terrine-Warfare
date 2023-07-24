@@ -1,0 +1,153 @@
+
+game.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+ImprovementIcons/Barbed wire
+  rotate: false
+  xy: 568, 350
+  size: 229, 220
+  orig: 229, 220
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Bunker
+  rotate: false
+  xy: 1372, 997
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Land mine
+  rotate: false
+  xy: 1692, 1743
+  size: 236, 214
+  orig: 236, 214
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Outpost
+  rotate: false
+  xy: 1692, 1535
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Travel tube
+  rotate: false
+  xy: 852, 685
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Wooden barricades
+  rotate: false
+  xy: 568, 142
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Barbed wire
+  rotate: false
+  xy: 892, 1409
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Bunker
+  rotate: false
+  xy: 1936, 1929
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Land mine
+  rotate: false
+  xy: 805, 542
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Outpost
+  rotate: false
+  xy: 1692, 1499
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Travel tube
+  rotate: false
+  xy: 568, 106
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Wooden barricades
+  rotate: false
+  xy: 4, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/A.A.C
+  rotate: false
+  xy: 4, 40
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/A.R.C
+  rotate: false
+  xy: 852, 649
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/A.R.C2
+  rotate: false
+  xy: 852, 1409
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mortar Team
+  rotate: false
+  xy: 1372, 961
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mortar Team2
+  rotate: false
+  xy: 1580, 1169
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitIcons/A.A.C
+  rotate: false
+  xy: 4, 76
+  size: 556, 494
+  orig: 556, 494
+  offset: 0, 0
+  index: -1
+UnitIcons/A.R.C
+  rotate: false
+  xy: 932, 1205
+  size: 752, 752
+  orig: 752, 752
+  offset: 0, 0
+  index: -1
+UnitIcons/Mortar Team
+  rotate: false
+  xy: 4, 578
+  size: 840, 859
+  orig: 840, 859
+  offset: 0, 0
+  index: -1
+UnitIcons/Tsar Bomba
+  rotate: false
+  xy: 4, 1445
+  size: 920, 512
+  orig: 920, 512
+  offset: 0, 0
+  index: -1

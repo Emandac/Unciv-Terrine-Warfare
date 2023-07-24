@@ -1,0 +1,48 @@
+[
+	{
+		"name": "Tsar Bomba",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 700,
+		"rangedStrength": 650,
+		"range": 12,
+		"cost": 2000,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": ["Nuclear weapon of Strength [8]","Blast radius [5]", "Consumes [8] [Uranium]","Only available <if [Manhattan Project] is constructed>","Self-destructs when attacking"],
+		"attackSound": "nuke"
+	},
+	{
+		"name": "A.R.C",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 20,
+		"cost": 500,
+		"requiredTech": "Electronics",
+		"uniques": ["Can carry [5] [Missile] units"]
+	},
+	{
+		"name": "A.A.C",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 10,
+		"cost": 650,
+		"requiredTech": "Electronics",
+		"uniques": ["Can carry [1] [Aircraft] units"]
+
+	},
+	{
+		"name": "Mortar Team",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 35,
+		"rangedStrength": 34,
+		"range": 2,
+		"cost": 280,
+		"requiredTech": "Dynamite",
+		"uniques": ["[55]% Strength <vs [Gunpowder] units>","[-1] Sight", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	}
+	
+
+]
