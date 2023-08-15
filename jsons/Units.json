@@ -31,15 +31,15 @@
 
 	},
 	{
-		"name": "Mortar Team",
+		"name": "Mortar Men",
 		"unitType": "Archery",
 		"movement": 2,
-		"strength": 35,
-		"rangedStrength": 34,
+		"strength": 30,
+		"rangedStrength": 30,
 		"range": 2,
-		"cost": 280,
+		"cost": 300,
 		"requiredTech": "Dynamite",
-		"uniques": ["[55]% Strength <vs [Gunpowder] units>","[-1] Sight","Never appears as a Barbarian unit"],
+		"uniques": ["[55]% Strength <vs [Gunpowder] units>","[-1] Sight","Never appears as a Barbarian unit","[-75]% Strength <vs [Ranged Water] units>","[-90]% Strength <vs [Melee Water] units>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -55,6 +55,4 @@
 		"attackSound": "shot"
 
 	}
-	
-
 ]

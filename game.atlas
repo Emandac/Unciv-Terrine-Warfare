@@ -13,7 +13,7 @@ ImprovementIcons/Barbed wire
   index: -1
 ImprovementIcons/Bunker
   rotate: false
-  xy: 1692, 1493
+  xy: 1692, 1260
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -27,7 +27,7 @@ ImprovementIcons/Land mine
   index: -1
 ImprovementIcons/Outpost
   rotate: false
-  xy: 1692, 1285
+  xy: 852, 441
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -41,7 +41,7 @@ ImprovementIcons/Travel tube
   index: -1
 ImprovementIcons/Wooden barricades
   rotate: false
-  xy: 852, 441
+  xy: 1060, 441
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -69,21 +69,21 @@ TileSets/FantasyHex/Tiles/Land mine
   index: -1
 TileSets/FantasyHex/Tiles/Outpost
   rotate: false
-  xy: 1060, 613
+  xy: 1692, 1224
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Travel tube
   rotate: false
-  xy: 812, 398
+  xy: 1268, 613
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Wooden barricades
   rotate: false
-  xy: 852, 405
+  xy: 812, 398
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -109,7 +109,7 @@ TileSets/FantasyHex/Units/A.R.C2
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Mortar Team
+TileSets/FantasyHex/Units/Mortar Men
   rotate: false
   xy: 1929, 1893
   size: 32, 28
@@ -118,14 +118,14 @@ TileSets/FantasyHex/Units/Mortar Team
   index: -1
 TileSets/FantasyHex/Units/Mortar Team2
   rotate: false
-  xy: 568, 51
+  xy: 1929, 1893
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mountaineer
   rotate: false
-  xy: 1692, 1249
+  xy: 568, 51
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -144,7 +144,7 @@ UnitIcons/A.R.C
   orig: 752, 752
   offset: 0, 0
   index: -1
-UnitIcons/Mortar Team
+UnitIcons/Mortar Men
   rotate: false
   xy: 4, 542
   size: 840, 859
@@ -153,7 +153,7 @@ UnitIcons/Mortar Team
   index: -1
 UnitIcons/Mountaineer
   rotate: false
-  xy: 568, 87
+  xy: 1692, 1468
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
@@ -163,6 +163,27 @@ UnitIcons/Tsar Bomba
   xy: 4, 1409
   size: 920, 512
   orig: 920, 512
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Forest Specialisation I
+  rotate: false
+  xy: 568, 87
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Forest Specialisation II
+  rotate: false
+  xy: 568, 87
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Forest Specialisation III
+  rotate: false
+  xy: 568, 87
+  size: 225, 225
+  orig: 225, 225
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Mountaieer I
