@@ -39,9 +39,21 @@
 		"range": 2,
 		"cost": 280,
 		"requiredTech": "Dynamite",
-		"uniques": ["[55]% Strength <vs [Gunpowder] units>","[-1] Sight", "Never appears as a Barbarian unit"],
+		"uniques": ["[55]% Strength <vs [Gunpowder] units>","[-1] Sight","Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
+	},
+	{
+		"name": "Mountaineer",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 55,
+		"cost": 400,
+		"uniques": ["[+20]% Strength <when fighting in [Hill] tiles>","[-25]% Strength <when fighting in [Open terrain] tiles>","Double movement in [Hill]","Never appears as a Barbarian unit"],
+		"requiredTech": "Railroads",
+		"promotions": ["Mountaieer I","Mountaieer II"],
+		"attackSound": "shot"
+
 	}
 	
 

@@ -1,0 +1,26 @@
+[
+
+	{
+		"name": "Mountaieer I",
+		"uniques": ["[+20]% Strength <when fighting in [Hill] tiles>"],
+		"unitTypes": ["Sword","Gunpowder"],
+        "column": 5,
+        "row": 1
+	},
+	{
+		"name": "Mountaieer II",
+		"prerequisites": ["Mountaieer I"],
+		"uniques": ["[+20]% Strength <when fighting in [Hill] tiles>"],
+		"unitTypes": ["Sword","Gunpowder"],
+        "column": 5,
+        "row": 2
+	},
+	{
+		"name": "Mountaieer III",
+		"prerequisites": ["Mountaieer II"],
+		"uniques": ["[+30]% Strength <when fighting in [Hill] tiles>","[-40]% Strength <when fighting in [Open terrain] tiles>","Double movement in [Hill]"],
+		"unitTypes": ["Sword","Gunpowder"],
+        "column": 5,
+        "row": 3
+	}
+]
