@@ -4,205 +4,225 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-ImprovementIcons/Barbed wire
-  rotate: false
-  xy: 1692, 1701
-  size: 229, 220
-  orig: 229, 220
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Bunker
-  rotate: false
-  xy: 1692, 1260
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Land mine
-  rotate: false
-  xy: 568, 320
-  size: 236, 214
-  orig: 236, 214
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Outpost
-  rotate: false
-  xy: 852, 441
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Travel tube
-  rotate: false
-  xy: 1372, 649
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Wooden barricades
-  rotate: false
-  xy: 1060, 441
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Barbed wire
-  rotate: false
-  xy: 4, 4
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Bunker
-  rotate: false
-  xy: 852, 1373
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Land mine
-  rotate: false
-  xy: 892, 1373
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Outpost
-  rotate: false
-  xy: 1692, 1224
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Travel tube
-  rotate: false
-  xy: 1268, 613
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Wooden barricades
-  rotate: false
-  xy: 812, 398
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/A.A.C
-  rotate: false
-  xy: 812, 506
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/A.R.C
-  rotate: false
-  xy: 812, 470
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/A.R.C2
-  rotate: false
-  xy: 812, 434
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Mortar Men
-  rotate: false
-  xy: 1929, 1893
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Mortar Team2
-  rotate: false
-  xy: 1929, 1893
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Mountaineer
-  rotate: false
-  xy: 568, 51
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
 UnitIcons/A.A.C
   rotate: false
-  xy: 4, 40
+  xy: 764, 22
   size: 556, 494
   orig: 556, 494
   offset: 0, 0
   index: -1
 UnitIcons/A.R.C
   rotate: false
-  xy: 932, 1169
+  xy: 4, 158
   size: 752, 752
   orig: 752, 752
   offset: 0, 0
   index: -1
+UnitIcons/Modern Mountaineer
+  rotate: false
+  xy: 1328, 4
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
 UnitIcons/Mortar Men
   rotate: false
-  xy: 4, 542
+  xy: 1012, 524
   size: 840, 859
   orig: 840, 859
   offset: 0, 0
   index: -1
-UnitIcons/Mountaineer
+UnitIcons/Mortar Team
   rotate: false
-  xy: 1692, 1468
-  size: 225, 225
-  orig: 225, 225
+  xy: 4, 918
+  size: 1000, 985
+  orig: 1000, 985
   offset: 0, 0
   index: -1
 UnitIcons/Tsar Bomba
   rotate: false
-  xy: 4, 1409
+  xy: 1012, 1391
   size: 920, 512
   orig: 920, 512
   offset: 0, 0
   index: -1
+
+game2.png
+size: 2048, 1024
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+ImprovementIcons/Barbed wire
+  rotate: false
+  xy: 1044, 787
+  size: 229, 220
+  orig: 229, 220
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Bunker
+  rotate: false
+  xy: 248, 287
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Land mine
+  rotate: false
+  xy: 4, 273
+  size: 236, 214
+  orig: 236, 214
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Outpost
+  rotate: false
+  xy: 1281, 807
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Travel tube
+  rotate: false
+  xy: 524, 495
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Wooden barricades
+  rotate: false
+  xy: 456, 287
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Barbed wire
+  rotate: false
+  xy: 664, 459
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Bunker
+  rotate: false
+  xy: 44, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Land mine
+  rotate: false
+  xy: 1084, 518
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Outpost
+  rotate: false
+  xy: 664, 423
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Travel tube
+  rotate: false
+  xy: 704, 459
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Wooden barricades
+  rotate: false
+  xy: 84, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/A.A.C
+  rotate: false
+  xy: 4, 4
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/A.R.C
+  rotate: false
+  xy: 1044, 518
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/A.R.C2
+  rotate: false
+  xy: 1489, 979
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mortar Men
+  rotate: false
+  xy: 1489, 943
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mortar Team2
+  rotate: false
+  xy: 1489, 943
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mountaineer
+  rotate: false
+  xy: 1529, 979
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitIcons/Mountaineer
+  rotate: false
+  xy: 1044, 554
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Forest Specialisation I
   rotate: false
-  xy: 568, 87
+  xy: 4, 40
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Forest Specialisation II
   rotate: false
-  xy: 568, 87
+  xy: 4, 40
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Forest Specialisation III
   rotate: false
-  xy: 568, 87
+  xy: 4, 40
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Mountaieer I
   rotate: false
-  xy: 852, 649
+  xy: 4, 495
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Mountaieer II
   rotate: false
-  xy: 852, 649
+  xy: 4, 495
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Mountaieer III
   rotate: false
-  xy: 852, 649
+  xy: 4, 495
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
