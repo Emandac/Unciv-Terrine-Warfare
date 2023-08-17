@@ -32,7 +32,7 @@
 	},
 	{
 		"name": "Mortar Men",
-		"unitType": "Archery",
+		"unitType": "Ranged Gunpowder",
 		"movement": 2,
 		"strength": 30,
 		"rangedStrength": 30,
@@ -43,12 +43,12 @@
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery",
 		"upgradesTo": "Mortar Team",
-		"obsoleteTech": "Mobile Tactics"
+		"obsoleteTech": "Plastics"
 
 	},
 	{
 		"name": "Mortar Team",
-		"unitType": "Archery",
+		"unitType": "Ranged Gunpowder",
 		"movement": 2,
 		"strength": 45,
 		"rangedStrength": 45,

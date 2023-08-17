@@ -4,15 +4,21 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired": "Construction",
 		"turnsToBuild": 4,
-		"uniques":["Cannot be built on [Water] tiles","Gives a defensive bonus of [10]%","Can be built outside your borders","Does not need removal of [Forest]","Pillaging this improvement yields approximately [+5 Gold]","[+10]% Strength <vs [Mount] units> <in [Wooden Barricade] tiles>"]
+		"uniques":["Cannot be built on [Water] tiles","Gives a defensive bonus of [10]%","Can be built outside your borders","Does not need removal of [Forest]","Pillaging this improvement yields approximately [+5 Gold]"],
+		"civilopediaText": [
+			{"text": "[+15]% Strength <vs [Mounted] units> <in [Wooden barricades] tiles> <when defending>" }
+		]
 	},
 	{
 		"name": "Barbed wire",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired":"Industrialization",
 		"turnsToBuild": 3,
-		"uniques": ["Cannot be built on [Water] tiles","Gives a defensive bonus of [15]%","Can be built outside your borders","Does not need removal of [Forest]","Pillaging this improvement yields approximately [+10 Gold]","[12]% Strength <vs [Land] units> <in [Barbed wire] tiles>","[+15]% Strength <vs [Mount] units> <in [Barbed wire] tiles>",
-		"[15]% Strength <when fighting in [Hill] tiles> <when defending>"]
+		"uniques": ["Cannot be built on [Water] tiles","Gives a defensive bonus of [13]%","Can be built outside your borders","Does not need removal of [Forest]","Pillaging this improvement yields approximately [+10 Gold]"],
+		"civilopediaText": [
+			{"text": "[+15]% Strength <vs [Mounted] units> <in [Barbed wire] tiles> <when defending>" },
+			{"text": "[+10]% Strength <vs [Gunpowder] units> <in [Barbed wire] tiles> <when defending>" }
+		]
 	},
 	{
 		"name": "Land mine",
@@ -38,7 +44,11 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired":"Industrialization",
 		"turnsToBuild": 8,
-		"uniques": ["Does not need removal of [Forest]","Cannot be built on [Water] tiles","Gives a defensive bonus of [30]%","[+2] Sight <for [Ranged] units>","[+30]% Strength <vs [Land] units> <in [Bunker] tiles>","[+2] Range <for [Ranged] units>","Can be built outside your borders"]
+		"uniques": ["Does not need removal of [Forest]","Cannot be built on [Water] tiles","Gives a defensive bonus of [30]%","[+30]% Strength <vs [Land] units> <in [Bunker] tiles>","[+1] Range <for [Ranged] units>","Can be built outside your borders"],
+		"civilopediaText": [
+			{"text": "[+30]% Strength <vs [Gunpowder] units> <in [Bunker] tiles> <when defending>" },
+			{"text": "+1 sight for Range unit"}
+		]
 	},
 	{
 		"name": "Travel tube",

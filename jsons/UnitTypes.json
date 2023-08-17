@@ -1,7 +1,12 @@
 [
     {
-        "name": "Melee",
+        "name": "Gunpowder",
         "movementType": "Land",
-        "uniques": ["[+10]% Strength <vs [Mount] units> <in [Wooden Barricade] tiles>","[+30]% Strength <vs [Land] units> <in [Bunker] tiles>","[+2] Range <for [Ranged] units> <in [Bunker] tiles>"]
+        "uniques": ["[+15]% Strength <vs [Mounted] units> <in [Wooden Barricade] tiles> <when defending>","[+10]% Strength <vs [Gunpowder] units> <in [Barbed wire] tiles> <when defending>","[+15]% Strength <vs [Mounted] units> <in [Barbed wire] tiles> <when defending>","[35]% Strength <when fighting in [Bunker] tiles> <when defending>"]
+    },
+    {
+        "name": "Ranged Gunpowder",
+        "movementType": "Land",
+        "uniques": ["[+1] Range <for [Ranged] units> <in [Bunker] tiles>","[+1] Sight <for [Ranged] units> <in [Bunker] tiles>"]
     }
 ]
