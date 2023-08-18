@@ -8,5 +8,11 @@
         "name": "Ranged Gunpowder",
         "movementType": "Land",
         "uniques": ["[+1] Range <for [Ranged] units> <in [Bunker] tiles>","[+1] Sight <for [Ranged] units> <in [Bunker] tiles>"]
+    },
+    {
+        "name": "Katyusha Missile",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking"]
     }
 ]
+

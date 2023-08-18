@@ -38,10 +38,10 @@
 		"rangedStrength": 30,
 		"range": 2,
 		"cost": 290,
-		"requiredTech": "Dynamite",
+		"requiredTech": "Military Science",
 		"uniques": ["[55]% Strength <vs [Gunpowder] units>","[15]% Strength <vs [Siege] units>","[-1] Sight","Never appears as a Barbarian unit","[-75]% Strength <vs [Ranged Water] units>","[-90]% Strength <vs [Melee Water] units>"],
 		"promotions": ["Indirect Fire"],
-		"attackSound": "artillery",
+		"attackSound": "Military Science",
 		"upgradesTo": "Mortar Team",
 		"obsoleteTech": "Plastics"
 
@@ -55,7 +55,7 @@
 		"range": 2,
 		"cost": 650,
 		"requiredTech": "Plastics",
-		"uniques": ["[60]% Strength <vs [Gunpowder] units>","[25]% Strength <vs [Siege] units>","[-1] Sight","Never appears as a Barbarian unit","[-70]% Strength <vs [Ranged Water] units>","[-80]% Strength <vs [Melee Water] units>"],
+		"uniques": ["[60]% Strength <vs [Gunpowder] units>","[30]% Strength <vs [Siege] units>","[-1] Sight","Never appears as a Barbarian unit","[-70]% Strength <vs [Ranged Water] units>","[-80]% Strength <vs [Melee Water] units>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 
@@ -68,10 +68,11 @@
 		"strength": 55,
 		"cost": 400,
 		"uniques": ["[+20]% Strength <when fighting in [Hill] tiles>","[15]% Strength <when fighting in [Hill] tiles> <when defending>","[-30]% Strength <when fighting in [Open terrain] tiles>","Double movement in [Hill]","Never appears as a Barbarian unit"],
-		"requiredTech": "Railroads",
+		"requiredTech": "Military Science",
 		"promotions": ["Mountaieer I","Mountaieer II"],
 		"attackSound": "shot",
-		"obsoleteTech": "Plastics"
+		"obsoleteTech": "Plastics",
+		"upgradesTo": "Modern Mountaineer"
 	},
 	{
 		"name": "Modern Mountaineer",
@@ -83,6 +84,39 @@
 		"requiredTech": "Plastics",
 		"promotions": ["Mountaieer I","Mountaieer II"],
 		"attackSound": "shot"
+	},
+	{
+		"name": "Katyusha Missile",
+		"unitType": "Katyusha Missile",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 70,
+		"range": 5,
+		"cost": 300,
+		"requiredTech": "Flight",
+		"uniques": ["[-100]% maintenance costs","[80]% Strength <vs [Gunpowder] units>","[80]% Strength <vs [Siege] units>"],
+		"attackSound": "Flight",
+		"upgradesTo": "Katyusha anti-Bunker Missile"
+	},
+	{
+		"name": "Katyusha anti-Bunker Missile",
+		"unitType": "Katyusha Missile",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 90,
+		"range": 6,
+		"cost": 350,
+		"uniques": ["[-100]% maintenance costs","[70]% Strength <vs [Gunpowder] units>","[70]% Strength <vs [Siege] units>","[+140]% Strength <vs cities> <when attacking>","[+125]% Strength <when fighting in [Bunker] tiles>","Unbuildable","Unpurchasable"],
+		"attackSound": "Flight",
+		"requiredTech": "Flight"
+	},
+	{
+		"name": "Katyusha rocket launcher",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 15,
+		"cost": 350,
+		"requiredTech": "Flight",
+		"uniques": ["Can carry [4] [Katyusha Missile] units"]
 	}
 ]
-

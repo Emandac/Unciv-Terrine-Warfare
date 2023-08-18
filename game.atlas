@@ -75,7 +75,7 @@ ImprovementIcons/Land mine
   index: -1
 ImprovementIcons/Outpost
   rotate: false
-  xy: 1281, 807
+  xy: 456, 287
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -89,14 +89,14 @@ ImprovementIcons/Travel tube
   index: -1
 ImprovementIcons/Wooden barricades
   rotate: false
-  xy: 456, 287
+  xy: 664, 287
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Barbed wire
   rotate: false
-  xy: 664, 459
+  xy: 872, 459
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -117,21 +117,21 @@ TileSets/FantasyHex/Tiles/Land mine
   index: -1
 TileSets/FantasyHex/Tiles/Outpost
   rotate: false
-  xy: 664, 423
+  xy: 912, 459
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Travel tube
   rotate: false
-  xy: 704, 459
+  xy: 84, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Wooden barricades
   rotate: false
-  xy: 84, 4
+  xy: 1124, 518
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -152,35 +152,56 @@ TileSets/FantasyHex/Units/A.R.C
   index: -1
 TileSets/FantasyHex/Units/A.R.C2
   rotate: false
-  xy: 1489, 979
+  xy: 1980, 979
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mortar Men
   rotate: false
-  xy: 1489, 943
+  xy: 1980, 943
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mortar Team2
   rotate: false
-  xy: 1489, 943
+  xy: 1980, 943
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mountaineer
   rotate: false
-  xy: 1529, 979
+  xy: 872, 423
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-UnitIcons/Mountaineer
+UnitIcons/Katyusha Missile
   rotate: false
   xy: 1044, 554
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/Katyusha anti-Bunker Missile
+  rotate: false
+  xy: 1281, 782
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/Katyusha rocket launcher
+  rotate: false
+  xy: 1514, 782
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitIcons/Mountaineer
+  rotate: false
+  xy: 1747, 782
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
