@@ -103,10 +103,10 @@
 		"unitType": "Katyusha Missile",
 		"movement": 1,
 		"strength": 60,
-		"rangedStrength": 90,
+		"rangedStrength": 80,
 		"range": 6,
 		"cost": 350,
-		"uniques": ["[-100]% maintenance costs","[70]% Strength <vs [Gunpowder] units>","[70]% Strength <vs [Siege] units>","[+140]% Strength <vs cities> <when attacking>","[+125]% Strength <when fighting in [Bunker] tiles>","Unbuildable","Unpurchasable"],
+		"uniques": ["[-100]% maintenance costs","[50]% Strength <vs [Gunpowder] units>","[125]% Strength <vs [Siege] units>","[+90]% Strength <vs cities> <when attacking>","[+30]% Strength <when fighting in [Bunker] tiles>","Unbuildable","Unpurchasable"],
 		"attackSound": "Flight",
 		"requiredTech": "Flight"
 	},
@@ -114,7 +114,7 @@
 		"name": "Katyusha rocket launcher",
 		"unitType": "Armored",
 		"movement": 5,
-		"strength": 15,
+		"strength": 25,
 		"cost": 350,
 		"requiredTech": "Flight",
 		"uniques": ["Can carry [4] [Katyusha Missile] units"]
