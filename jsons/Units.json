@@ -12,10 +12,25 @@
 		"attackSound": "nuke"
 	},
 	{
+		"name": "Missile Cruiser",
+		"unitType": "Ranged Water",
+		"movement": 7,
+		"strength": 80,
+		"rangedStrength": 100,
+		"range": 3,
+		"interceptRange": 2,
+		"cost": 425,
+		"requiredTech": "Robotics",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
+			"Can carry [3] [Missile] units","Can carry [2] [Katyusha Missile] units","[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
 		"name": "A.R.C",
 		"unitType": "Armored",
 		"movement": 4,
-		"strength": 20,
+		"strength": 45,
 		"cost": 500,
 		"requiredTech": "Electronics",
 		"uniques": ["Can carry [5] [Missile] units"]
@@ -24,7 +39,7 @@
 		"name": "A.A.C",
 		"unitType": "Armored",
 		"movement": 4,
-		"strength": 10,
+		"strength": 45,
 		"cost": 650,
 		"requiredTech": "Electronics",
 		"uniques": ["Can carry [1] [Aircraft] units"]
@@ -34,7 +49,7 @@
 		"name": "Mortar Men",
 		"unitType": "Ranged Gunpowder",
 		"movement": 2,
-		"strength": 30,
+		"strength": 35,
 		"rangedStrength": 30,
 		"range": 2,
 		"cost": 290,
@@ -102,11 +117,11 @@
 		"name": "Katyusha anti-Bunker Missile",
 		"unitType": "Katyusha Missile",
 		"movement": 1,
-		"strength": 60,
+		"strength": 80,
 		"rangedStrength": 80,
 		"range": 6,
 		"cost": 350,
-		"uniques": ["[-100]% maintenance costs","[50]% Strength <vs [Gunpowder] units>","[125]% Strength <vs [Siege] units>","[+90]% Strength <vs cities> <when attacking>","[+30]% Strength <when fighting in [Bunker] tiles>","Unbuildable","Unpurchasable"],
+		"uniques": ["[-100]% maintenance costs","[50]% Strength <vs [Gunpowder] units>","[125]% Strength <vs [Siege] units>","[+90]% Strength <vs cities> <when attacking>","[+30]% Strength <when fighting in [Bunker] tiles>","[+80]% Strength <when fighting in [Coastal Bunker] tiles>","Unbuildable","Unpurchasable"],
 		"attackSound": "Flight",
 		"requiredTech": "Flight"
 	},
@@ -114,9 +129,22 @@
 		"name": "Katyusha rocket launcher",
 		"unitType": "Armored",
 		"movement": 5,
-		"strength": 25,
-		"cost": 350,
+		"strength": 40,
+		"cost": 850,
 		"requiredTech": "Flight",
 		"uniques": ["Can carry [4] [Katyusha Missile] units"]
+	},
+	{
+		"name": "Coastal Bunker Arillery",
+		"unitType": "Coastal Arillery",
+		"movement": "1",
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 1,
+		"cost": 750,
+		"requiredTech": "Railroads",
+		"uniques": ["[-1] Sight","[-125]% Strength <vs [Siege] units>","[-1] Range"]
+		
+
 	}
 ]

@@ -13,6 +13,11 @@
         "name": "Katyusha Missile",
         "movementType": "Air",
         "uniques": ["Self-destructs when attacking"]
+    },
+    {
+        "name": "Coastal Arillery",
+        "movementType": "Land",
+        "uniques": ["[+15]% Strength <vs [Coastal Bunker Arillery] units> <in [Coastal Bunker] tiles> <when defending>","[+3] Range <for [Coastal Bunker Arillery] units> <in [Coastal Bunker] tiles>","[+15]% Strength <vs [Melee Water] units> <in [Coastal Bunker] tiles>","[+30]% Strength <vs [Ranged Water] units> <when attacking>","[+45]% Strength <vs [Melee Water] units> <when attacking>"]
+
     }
 ]
-
