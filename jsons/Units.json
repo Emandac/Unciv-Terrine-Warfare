@@ -30,7 +30,7 @@
 		"name": "A.R.C",
 		"unitType": "Armored",
 		"movement": 4,
-		"strength": 45,
+		"strength": 30,
 		"cost": 500,
 		"requiredTech": "Electronics",
 		"uniques": ["Can carry [5] [Missile] units"]
@@ -39,7 +39,7 @@
 		"name": "A.A.C",
 		"unitType": "Armored",
 		"movement": 4,
-		"strength": 45,
+		"strength": 30,
 		"cost": 650,
 		"requiredTech": "Electronics",
 		"uniques": ["Can carry [1] [Aircraft] units"]
@@ -121,7 +121,7 @@
 		"rangedStrength": 80,
 		"range": 6,
 		"cost": 350,
-		"uniques": ["[-100]% maintenance costs","[50]% Strength <vs [Gunpowder] units>","[125]% Strength <vs [Siege] units>","[+90]% Strength <vs cities> <when attacking>","[+30]% Strength <when fighting in [Bunker] tiles>","[+80]% Strength <when fighting in [Coastal Bunker] tiles>","Unbuildable","Unpurchasable"],
+		"uniques": ["[-100]% maintenance costs","[50]% Strength <vs [Gunpowder] units>","[125]% Strength <vs [Siege] units>","[+90]% Strength <vs cities> <when attacking>","[+30]% Strength <when fighting in [Bunker] tiles>","[+75]% Strength <when fighting in [Coastal Bunker] tiles>","Unbuildable","Unpurchasable"],
 		"attackSound": "Flight",
 		"requiredTech": "Flight"
 	},
@@ -129,7 +129,7 @@
 		"name": "Katyusha rocket launcher",
 		"unitType": "Armored",
 		"movement": 5,
-		"strength": 40,
+		"strength": 35,
 		"cost": 850,
 		"requiredTech": "Flight",
 		"uniques": ["Can carry [4] [Katyusha Missile] units"]
