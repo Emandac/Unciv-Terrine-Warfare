@@ -71,6 +71,9 @@
 		"turnsToBuild": "8",
 		"uniques": ["Can only be built on [Coastal] tiles","Gives a defensive bonus of [40]%","[+4] Sight <for [Coastal Bunker Arillery] units>"]
 
+	},
+	{
+		"name": "Test"
 	}
 ]
 
