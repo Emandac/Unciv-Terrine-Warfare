@@ -68,5 +68,20 @@
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
         "column": 5,
         "row": 3
+	},
+	{
+		"name": "one more Katyusha rocket",
+		"uniques": ["Can carry [1] extra [Katyusha Missile] units"],
+		"unitTypes": ["Katyusha rocket launchers"],
+        "column": 28,
+        "row": 1
+	},
+	{
+		"name": "i swear just one more !",
+		"prerequisites": ["one more Katyusha rocket"],
+		"uniques": ["Can carry [1] extra [Katyusha Missile] units","[-40]% Strength <when defending>"],
+		"unitTypes": ["Katyusha rocket launchers"],
+        "column": 28,
+        "row": 2
 	}
 ]

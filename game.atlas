@@ -82,7 +82,7 @@ ImprovementIcons/Land mine
   index: -1
 ImprovementIcons/Outpost
   rotate: false
-  xy: 1281, 1822
+  xy: 524, 847
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -96,56 +96,63 @@ ImprovementIcons/Travel tube
   index: -1
 ImprovementIcons/Wooden barricades
   rotate: false
-  xy: 524, 847
+  xy: 237, 29
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Barbed wire
   rotate: false
-  xy: 976, 1474
+  xy: 1489, 1994
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Bunker
   rotate: false
-  xy: 1489, 1994
+  xy: 524, 811
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Coastal Bunker
   rotate: false
-  xy: 524, 811
+  xy: 1084, 1533
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Land mine
   rotate: false
-  xy: 1084, 1533
+  xy: 976, 1438
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Medical Testes
+  rotate: false
+  xy: 1489, 1958
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Outpost
   rotate: false
-  xy: 470, 398
+  xy: 564, 811
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Travel tube
   rotate: false
-  xy: 976, 1438
+  xy: 1124, 1533
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Wooden barricades
   rotate: false
-  xy: 1489, 1958
+  xy: 470, 362
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -159,37 +166,51 @@ TileSets/FantasyHex/Units/A.A.C
   index: -1
 TileSets/FantasyHex/Units/A.R.C
   rotate: false
-  xy: 237, 201
+  xy: 470, 434
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/A.R.C2
   rotate: false
-  xy: 470, 434
+  xy: 976, 1474
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Heavy Tank
+  rotate: false
+  xy: 470, 398
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mortar Men
   rotate: false
-  xy: 237, 165
+  xy: 1529, 1994
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mortar Team2
   rotate: false
-  xy: 237, 165
+  xy: 1529, 1994
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mountaineer
   rotate: false
-  xy: 277, 201
+  xy: 524, 775
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+UnitIcons/Heavy Tank
+  rotate: false
+  xy: 1281, 1822
+  size: 200, 200
+  orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Katyusha Missile

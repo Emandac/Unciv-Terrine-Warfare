@@ -46,6 +46,43 @@
 
 	},
 	{
+		"name": "Anti-Tank Gun",
+		"unitType": "Anti-Tank Gun",
+		"movement": 2,
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Helicopter Gunship",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Tank",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Heavy Tank",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","[+25]% Strength <vs [Armored] units> <when attacking>"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Heavy Tank",
+		"unitType": "Armored",
+		"movement": 3,
+		"strength": 80,
+		"rangedStrength": 75,
+		"cost": 850,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"range": 2,
+		"uniques": ["[10]% Strength <vs [Anti-Tank Gun] units> <when defending>","[+25]% Strength <vs [Gunpowder] units> <when attacking>","[+35]% Strength <vs [Armored] units> <when attacking>","[+35]% Strength <vs [Armored] units> <when defending>","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","Unbuildable","Unpurchasable"],
+		"attackSound": "tankshot"
+	},
+	{
 		"name": "Mortar Men",
 		"unitType": "Ranged Gunpowder",
 		"movement": 2,
@@ -56,7 +93,7 @@
 		"requiredTech": "Military Science",
 		"uniques": ["[55]% Strength <vs [Gunpowder] units>","[15]% Strength <vs [Siege] units>","[-1] Sight","Never appears as a Barbarian unit","[-75]% Strength <vs [Ranged Water] units>","[-90]% Strength <vs [Melee Water] units>"],
 		"promotions": ["Indirect Fire"],
-		"attackSound": "Military Science",
+		"attackSound": "artillery",
 		"upgradesTo": "Mortar Team",
 		"obsoleteTech": "Plastics"
 
@@ -105,7 +142,7 @@
 		"unitType": "Katyusha Missile",
 		"movement": 1,
 		"strength": 60,
-		"rangedStrength": 70,
+		"rangedStrength": 60,
 		"range": 5,
 		"cost": 300,
 		"requiredTech": "Flight",
@@ -117,17 +154,17 @@
 		"name": "Katyusha anti-Bunker Missile",
 		"unitType": "Katyusha Missile",
 		"movement": 1,
-		"strength": 80,
-		"rangedStrength": 80,
+		"strength": 75,
+		"rangedStrength": 65,
 		"range": 6,
 		"cost": 350,
-		"uniques": ["[-100]% maintenance costs","[50]% Strength <vs [Gunpowder] units>","[125]% Strength <vs [Siege] units>","[+90]% Strength <vs cities> <when attacking>","[+30]% Strength <when fighting in [Bunker] tiles>","[+75]% Strength <when fighting in [Coastal Bunker] tiles>","Unbuildable","Unpurchasable"],
+		"uniques": ["[-100]% maintenance costs","[-25]% Strength <vs [Gunpowder] units>","[80]% Strength <vs [Siege] units>","[+55]% Strength <vs cities> <when attacking>","[+30]% Strength <when fighting in [Bunker] tiles>","[+75]% Strength <when fighting in [Coastal Bunker] tiles>","Unbuildable","Unpurchasable"],
 		"attackSound": "Flight",
 		"requiredTech": "Flight"
 	},
 	{
 		"name": "Katyusha rocket launcher",
-		"unitType": "Armored",
+		"unitType": "Katyusha rocket launchers",
 		"movement": 5,
 		"strength": 35,
 		"cost": 850,

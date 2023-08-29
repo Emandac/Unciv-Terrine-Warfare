@@ -19,5 +19,36 @@
         "movementType": "Land",
         "uniques": ["[+15]% Strength <vs [Coastal Bunker Arillery] units> <in [Coastal Bunker] tiles> <when defending>","[+3] Range <for [Coastal Bunker Arillery] units> <in [Coastal Bunker] tiles>","[+15]% Strength <vs [Melee Water] units> <in [Coastal Bunker] tiles>","[+30]% Strength <vs [Ranged Water] units> <when attacking>","[+45]% Strength <vs [Melee Water] units> <when attacking>"]
 
+    },
+    {
+        "name": "Anti-Tank Gun",
+        "movementType": "Land",
+        "uniques": [""]
+    },
+    {
+        "name": "Katyusha rocket launchers",
+        "movementType": "Land",
+        "uniques": [""]
+    },
+    {
+        "name": "light Armored",
+        "movementType": "Land",
+        "uniques": ["[-25]% Strength <vs [Anti-Tank Gun] units> <when defending>"]
+    },
+    {
+        "name": "Armored",
+        "movementType": "Land",
+        "uniques": [""]
+    },
+    {
+        "name": "Heavy Armored",
+        "movementType": "Land",
+        "uniques": [""]
+    },
+    {
+        "name": "Modern Armored",
+        "movementType": "Land",
+        "uniques": [""]
     }
+
 ]

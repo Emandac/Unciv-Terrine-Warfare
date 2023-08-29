@@ -73,7 +73,11 @@
 
 	},
 	{
-		"name": "Test"
+		"name": "Medical Testes",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Military Science",
+		"turnsToBuild": 6,
+		"uniques": ["Can be built outside your borders","[+1 Food]"]
 	}
 ]
 
