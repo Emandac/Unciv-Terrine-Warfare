@@ -46,15 +46,40 @@
 
 	},
 	{
+		"name": "Helicopter Gunship",
+		"unitType": "Helicopter",
+		"movement": 6,
+		"strength": 60,
+		"cost": 425,
+		"requiredTech": "Computers",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+100]% Strength <vs [Armored] units>","[+125]% Strength <vs [Light Armored] units>","[+55]% Strength <vs [Heavy Armored] units>","[+30]% Strength <vs [Modern Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
 		"name": "Anti-Tank Gun",
 		"unitType": "Anti-Tank Gun",
 		"movement": 2,
 		"strength": 50,
+		"rangedStrength": 50,
 		"cost": 300,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Helicopter Gunship",
 		"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
-		"attackSound": "machinegun"
+		"attackSound": "machinegun",
+		"range": 1
+
+	},
+	{
+		"name": "Mechanized Infantry",
+		"unitType": "Light Armored",
+		"movement": 3,
+		"strength": 90,
+		"cost": 375,
+		"requiredTech": "Mobile Tactics",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
 	},
 	{
 		"name": "Tank",
@@ -70,7 +95,7 @@
 	},
 	{
 		"name": "Heavy Tank",
-		"unitType": "Armored",
+		"unitType": "Heavy Armored",
 		"movement": 3,
 		"strength": 80,
 		"rangedStrength": 75,
@@ -79,7 +104,18 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
 		"range": 2,
-		"uniques": ["[10]% Strength <vs [Anti-Tank Gun] units> <when defending>","[+25]% Strength <vs [Gunpowder] units> <when attacking>","[+35]% Strength <vs [Armored] units> <when attacking>","[+35]% Strength <vs [Armored] units> <when defending>","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","Unbuildable","Unpurchasable"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Modern Armor",
+		"unitType": "Modern Armored",
+		"movement": 5,
+		"strength": 100,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"upgradesTo": "Giant Death Robot",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -160,7 +196,19 @@
 		"cost": 350,
 		"uniques": ["[-100]% maintenance costs","[-25]% Strength <vs [Gunpowder] units>","[80]% Strength <vs [Siege] units>","[+55]% Strength <vs cities> <when attacking>","[+30]% Strength <when fighting in [Bunker] tiles>","[+75]% Strength <when fighting in [Coastal Bunker] tiles>","Unbuildable","Unpurchasable"],
 		"attackSound": "Flight",
-		"requiredTech": "Flight"
+		"requiredTech": "Electronics"
+	},
+	{
+		"name": "Katyusha anti-Helicopter Missile",
+		"unitType": "Katyusha Missile",
+		"movement": 1,
+		"strength": 75,
+		"rangedStrength": 65,
+		"range": 7,
+		"cost": 550,
+		"uniques": ["[-100]% maintenance costs","[200]% Strength <vs [Helicopter] units>","[-55]% Strength <vs [Gunpowder] units> <when attacking>"],
+		"attackSound": "Flight",
+		"requiredTech": "Radar"
 	},
 	{
 		"name": "Katyusha rocket launcher",
