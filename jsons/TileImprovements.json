@@ -77,7 +77,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired": "Military Science",
 		"turnsToBuild": 6,
-		"uniques": ["Can be built outside your borders","[+1 Food]"]
+		"uniques": ["Can be built outside your borders","[+2 Food]","Costs [1] [Gold] per turn"]
 	}
 ]
 

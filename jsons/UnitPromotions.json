@@ -73,7 +73,7 @@
 		"name": "one more Katyusha rocket",
 		"uniques": ["Can carry [1] extra [Katyusha Missile] units"],
 		"unitTypes": ["Katyusha rocket launchers"],
-        "column": 28,
+        "column": 29,
         "row": 1
 	},
 	{
@@ -81,7 +81,7 @@
 		"prerequisites": ["one more Katyusha rocket"],
 		"uniques": ["Can carry [1] extra [Katyusha Missile] units","[-40]% Strength <when defending>"],
 		"unitTypes": ["Katyusha rocket launchers"],
-        "column": 28,
+        "column": 29,
         "row": 2
 	}
 ]

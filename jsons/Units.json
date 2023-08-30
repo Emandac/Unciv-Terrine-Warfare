@@ -104,6 +104,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
 		"range": 2,
+		"uniques": ["[5]% Strength <vs [Anti-Tank Gun] units> <when defending>","[+25]% Strength <vs [Gunpowder] units> <when attacking>","[+35]% Strength <vs [Armored] units> <when attacking>","[+25]% Strength <vs [Armored] units> <when defending>","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","Unbuildable","Unpurchasable"],
 		"attackSound": "tankshot"
 	},
 	{
