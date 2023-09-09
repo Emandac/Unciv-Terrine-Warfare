@@ -65,8 +65,7 @@
 		"rangedStrength": 50,
 		"cost": 300,
 		"requiredTech": "Combined Arms",
-		"upgradesTo": "Helicopter Gunship",
-		"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+125]% Strength <vs [Light Armored] units> <when attacking>","[+100]% Strength <vs [Armored] units> <when attacking>","[+60]% Strength <vs [Heavy Armored] units> <when attacking>","[+40]% Strength <vs [Modern Armored] units> <when attacking>","Never appears as a Barbarian unit"],
 		"attackSound": "machinegun",
 		"range": 1
 
@@ -82,15 +81,36 @@
 		"attackSound": "tankshot"
 	},
 	{
+		"name": "Scout Car",
+		"unitType": "Light Armored",
+		"movement": 6,
+		"strength": 35,
+		"cost": 275,
+		"requiredTech": "Combustion",
+		"uniques": ["Can move after attacking","[+1] Sight","No defensive terrain bonus", "Never appears as a Barbarian unit","[+40]% Strength <vs [Gunpowder] units>","[-55]% Strength <vs [Heavy Armored] units> <when attacking>","[-35]% Strength <vs [Armored] units> <when attacking>"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Light Tank",
+		"unitType": "Light Armored",
+		"movement": 5,
+		"strength": 55,
+		"cost": 325,
+		"requiredTech": "Combustion",
+		"upgradesTo": "Tank",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","[+25]% Strength <vs [Light Armored] units> <when attacking>","[+20]% Strength <vs [Gunpowder] units>","[-55]% Strength <vs [Heavy Armored] units> <when attacking>"],
+		"attackSound": "tankshot"
+	},
+	{
 		"name": "Tank",
 		"unitType": "Armored",
-		"movement": 5,
+		"movement": 4,
 		"strength": 70,
 		"cost": 375,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
 		"upgradesTo": "Heavy Tank",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","[+25]% Strength <vs [Armored] units> <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","[+25]% Strength <vs [Armored] units> <when attacking>","[50]% Strength <vs [Light Armored] units> <when attacking>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -104,7 +124,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
 		"range": 2,
-		"uniques": ["[5]% Strength <vs [Anti-Tank Gun] units> <when defending>","[+25]% Strength <vs [Gunpowder] units> <when attacking>","[+35]% Strength <vs [Armored] units> <when attacking>","[+25]% Strength <vs [Armored] units> <when defending>","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","Unbuildable","Unpurchasable"],
+		"uniques": ["[5]% Strength <vs [Anti-Tank Gun] units> <when defending>","[+10]% Strength <vs [Gunpowder] units> <when attacking>","[+35]% Strength <vs [Armored] units> <when attacking>","[+25]% Strength <vs [Armored] units> <when defending>","[+55]% Strength <vs [Light Armored] units> <when defending>","[75]% Strength <vs [Light Armored] units> <when attacking>","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","Unbuildable","Unpurchasable"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -182,7 +202,7 @@
 		"rangedStrength": 60,
 		"range": 5,
 		"cost": 300,
-		"requiredTech": "Flight",
+		"requiredTech": "Ballistics",
 		"uniques": ["[-100]% maintenance costs","[80]% Strength <vs [Gunpowder] units>","[80]% Strength <vs [Siege] units>"],
 		"attackSound": "Flight",
 		"upgradesTo": "Katyusha anti-Bunker Missile"
@@ -217,20 +237,19 @@
 		"movement": 5,
 		"strength": 35,
 		"cost": 850,
-		"requiredTech": "Flight",
+		"requiredTech": "Ballistics",
 		"uniques": ["Can carry [4] [Katyusha Missile] units"]
 	},
 	{
 		"name": "Coastal Bunker Arillery",
 		"unitType": "Coastal Arillery",
-		"movement": "1",
+		"movement": 1,
 		"strength": 45,
 		"rangedStrength": 45,
 		"range": 1,
 		"cost": 750,
 		"requiredTech": "Railroads",
 		"uniques": ["[-1] Sight","[-125]% Strength <vs [Siege] units>","[-1] Range"]
-		
-
 	}
 ]
+

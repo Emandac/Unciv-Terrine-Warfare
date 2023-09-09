@@ -68,7 +68,7 @@
 		"name": "Coastal Bunker",
 		"terrainsCanBeBuiltOn":["Hill"],
 		"techRequired": "Railroads",
-		"turnsToBuild": "8",
+		"turnsToBuild": 8,
 		"uniques": ["Can only be built on [Coastal] tiles","Gives a defensive bonus of [40]%","[+4] Sight <for [Coastal Bunker Arillery] units>"]
 
 	},
@@ -78,6 +78,13 @@
 		"techRequired": "Military Science",
 		"turnsToBuild": 6,
 		"uniques": ["Can be built outside your borders","[+2 Food]","Costs [1] [Gold] per turn"]
+	},
+	{
+		"name": "Anti-Tank Ditch",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Railroads",
+		"turnsToBuild": 7,
+		"uniques": ["Can be built outside your borders","Costs [1] [Gold] per turn","[+2] Range <for [Anti-Tank Gun] units>","Gives a defensive bonus of [15]%"]
 	}
 ]
 

@@ -23,7 +23,8 @@
     {
         "name": "Anti-Tank Gun",
         "movementType": "Land",
-        "uniques": [""]
+        "uniques": ["[+1] Range <for [Anti-Tank Gun] units> <in [Anti-Tank Ditch] tiles>","[+55]% Strength <vs [Light Armored] units> <in [Anti-Tank Ditch] tiles>","[+50]% Strength <vs [Armored] units> <in [Anti-Tank Ditch] tiles>","[+45]% Strength <vs [Heavy Armored] units> <in [Anti-Tank Ditch] tiles>",
+        "[+40]% Strength <vs [Modern Armored] units> <in [Anti-Tank Ditch] tiles>"]
     },
     {
         "name": "Katyusha rocket launchers",
@@ -50,5 +51,4 @@
         "movementType": "Land",
         "uniques": ["[+30]% Strength <vs [Light Armored] units> <when defending>","[+15]% Strength <vs [Armored] units> <when defending>","[+10]% Strength <vs [Heavy Armored] units> <when defending>","[+10]% Strength <vs [Gunpowder] units> <when defending>"]
     }
-
 ]
