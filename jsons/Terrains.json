@@ -2,7 +2,7 @@
 	{
 		"name": "Mountain",
 		"type": "Land",
-		"impassable": false,
+		"impassable": "True",
 		"movementCost":2,
 		"happiness": 3,
 		"defenceBonus": 0.50,
