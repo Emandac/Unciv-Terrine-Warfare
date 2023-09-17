@@ -47,6 +47,29 @@
         "row": 3
 	},
 	{
+		"name": "Shock I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Light Armored","Heavy Armored","Modern Armored","Armored"],
+        "column": 4,
+        "row": 1
+	},
+	{
+		"name": "Shock II",
+		"prerequisites": ["Shock I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Light Armored","Heavy Armored","Modern Armored"],
+        "column": 4,
+        "row": 2
+	},
+	{
+		"name": "Shock III",
+		"prerequisites": ["Shock II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Armored","Light Armored","Heavy Armored","Modern Armored"],
+        "column": 4,
+        "row": 3
+	},
+	{
 		"name": "Drill I",
 		"uniques": ["[+10]% Strength <when fighting in [Rough terrain] tiles>"],
 		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
@@ -83,5 +106,36 @@
 		"unitTypes": ["Katyusha rocket launchers"],
         "column": 29,
         "row": 2
+	},
+	{
+		"name": "Overdrive",
+		"prerequisites": ["Shock II"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Light Armored","Heavy Armored","Modern Armored"],
+        "column": 30,
+        "row": 2
+	},
+	{
+		"name": "Scouting",
+		"uniques": ["[+1] Sight"],
+		"prerequisites": ["Shock I"],
+		"unitTypes": ["Light Armored"],
+        "column": 31,
+        "row": 2
+	},
+	{
+		"name": "Better equipment",
+		"uniques": ["[+10]% Strength <when defending>"],
+		"unitTypes": ["Light Armored","Heavy Armored","Modern Armored","Armored"],
+		"column": 32,
+		"row": 4
+	},
+	{
+		"name": "will to move",
+		"prerequisites": ["Shock II"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Light Armored","Heavy Armored","Modern Armored"],
+        "column": 31,
+        "row": 3
 	}
 ]

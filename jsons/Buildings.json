@@ -1,0 +1,47 @@
+[
+    {
+		"name": "Army Factory",
+		"cost": 550,
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Factory",
+		"maintenance": 5,
+		"hurryCostModifier": 0,
+		"requiredResource": "Oil",
+		"requiredTech": "Adanced Factorys",
+        "uniques": ["All newly-trained [relevant] units [in this city] receive the [Better equipment] promotion"]
+	},
+    {
+		"name": "Advanced Medical Centre",
+		"cost": 550,
+        "food": 3,
+		"uniques": ["All newly-trained [relevant] units [in this city] receive the [March] promotion"
+        ,"Must have an owned [Medical Testes] within [3] tiles","Limited to [1] per Civilization","Consumes [1] [Political Power]"],
+		"requiredTech": "Adanced Medication"
+    },
+	{
+		"name": "Political Power",
+		"isNationalWonder": true,
+		"requiredTech": "Political Power",
+		"cost": 1,
+		"uniques": ["Provides [2] [Political Power]"]
+
+	},
+	{
+		"name": "Civilian Factory",
+		"isNationalWonder": true,
+		"requiredTech": "Political Power",
+		"cost": 1,
+		"uniques": ["Consumes [1] [Political Power]","Only available <in cities without a [War Plan Factory]>","[+20]% Production when constructing [All] buildings [in this city]"]
+
+	},
+	{
+		"name": "War Plan Factory",
+		"production": 5,
+		"isNationalWonder": true,
+		"requiredTech": "Political Power",
+		"cost": 1,
+		"uniques": ["Consumes [1] [Political Power]","Only available <in cities without a [Civilian Factory]>","[+15]% Production when constructing [Land] units [in this city]"]
+
+	}
+ ]

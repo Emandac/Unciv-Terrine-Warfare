@@ -94,11 +94,26 @@
 		"name": "Light Tank",
 		"unitType": "Light Armored",
 		"movement": 5,
-		"strength": 55,
+		"strength": 50,
 		"cost": 325,
 		"requiredTech": "Combustion",
 		"upgradesTo": "Tank",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","[+25]% Strength <vs [Light Armored] units> <when attacking>","[+20]% Strength <vs [Gunpowder] units>","[-55]% Strength <vs [Heavy Armored] units> <when attacking>"],
+		"requiredResource": "Oil",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","[+35]% Strength <vs [Light Armored] units> <when attacking>","[+60]% Strength <vs [Gunpowder] units> <when attacking>","[-55]% Strength <vs [Heavy Armored] units> <when attacking>",
+		"[-35]% Strength <vs [Armored] units> <when attacking>"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Landship",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 60,
+		"cost": 350,
+		"requiredTech": "Combustion",
+		"requiredResource": "Oil",
+		"upgradesTo": "Tank",
+		"obsoleteTech": "Combined Arms",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","[+45]% Strength <vs [Light Armored] units> <when attacking>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -249,7 +264,7 @@
 		"range": 1,
 		"cost": 750,
 		"requiredTech": "Railroads",
-		"uniques": ["[-1] Sight","[-125]% Strength <vs [Siege] units>","[-1] Range"]
+		"uniques": ["[-1] Sight","[-125]% Strength <vs [Siege] units>","[-1] Range","[-55]% Strength <when fighting in [Open terrain] tiles>"]
 	}
 ]
 
