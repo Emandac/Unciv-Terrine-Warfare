@@ -264,7 +264,7 @@
 		"range": 1,
 		"cost": 750,
 		"requiredTech": "Railroads",
-		"uniques": ["[-1] Sight","[-125]% Strength <vs [Siege] units>","[-1] Range","[-55]% Strength <when fighting in [Open terrain] tiles>"]
+		"uniques": ["[-1] Sight","[-125]% Strength <vs [Siege] units>","[-1] Range","[-55]% Strength <when fighting in [Open terrain] tiles> <when defending>"]
 	}
 ]
 
