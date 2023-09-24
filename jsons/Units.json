@@ -210,6 +210,35 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Engineer",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 325,
+		"uniques": ["Can build [Trenches] improvements on tiles", "Can build [Anti-Tank Ditch] improvements on tiles",
+		"Can build [Bunker] improvements on tiles","Can build [Coastal Bunker] improvements on tiles",
+		"Can build [Medical Testes] improvements on tiles", "Can build [Outpost] improvements on tiles",
+		"Can build [Land mine] improvements on tiles", "Can build [Barbed wire] improvements on tiles",
+		"[-50]% tile improvement construction time"],
+		"requiredTech":"Railroads"
+
+	},
+	{
+		"name": "Combat Engineer",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 30,
+		"cost": 450,
+		"uniques": ["Can build [Trenches] improvements on tiles", "Can build [Anti-Tank Ditch] improvements on tiles",
+		"Can build [Bunker] improvements on tiles",
+		"Can build [Medical Testes] improvements on tiles", "Can build [Outpost] improvements on tiles",
+		"Can build [Land mine] improvements on tiles","Can build [Barbed wire] improvements on tiles",
+		"Can build [Coastal Bunker] improvements on tiles",
+		"[-25]% tile improvement construction time"],
+		"requiredTech":"Railroads",
+		"attackSound": "shot"
+
+	},
+	{
 		"name": "Katyusha Missile",
 		"unitType": "Katyusha Missile",
 		"movement": 1,

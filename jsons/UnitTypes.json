@@ -3,7 +3,8 @@
         "name": "Gunpowder",
         "movementType": "Land",
         "uniques": ["[+15]% Strength <vs [Mounted] units> <in [Wooden Barricade] tiles> <when defending>","[+10]% Strength <vs [Gunpowder] units> <in [Barbed wire] tiles> <when defending>","[+15]% Strength <vs [Mounted] units> <in [Barbed wire] tiles> <when defending>","[35]% Strength <when fighting in [Bunker] tiles> <when defending>",
-        "[+25] HP when healing <in [Medical Testes] tiles>"]
+        "[+25] HP when healing <in [Medical Testes] tiles>","[+25]% Strength <vs [Ranged Gunpowder] units> <in [Trenches] tiles> <when defending>","[+20]% Strength <vs [Siege] units> <in [Trenches] tiles> <when defending>",
+        "[+25]% Strength <vs [Gunpowder] units> <in [Trenches] tiles> <when defending>"]
     },
     {
         "name": "Ranged Gunpowder",
