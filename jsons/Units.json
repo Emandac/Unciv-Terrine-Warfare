@@ -31,7 +31,7 @@
 		"unitType": "Armored",
 		"movement": 4,
 		"strength": 30,
-		"cost": 500,
+		"cost": 450,
 		"requiredTech": "Electronics",
 		"uniques": ["Can carry [5] [Missile] units"]
 	},
@@ -40,7 +40,7 @@
 		"unitType": "Armored",
 		"movement": 4,
 		"strength": 30,
-		"cost": 650,
+		"cost": 550,
 		"requiredTech": "Electronics",
 		"uniques": ["Can carry [1] [Aircraft] units"]
 
@@ -177,9 +177,9 @@
 		"strength": 45,
 		"rangedStrength": 45,
 		"range": 2,
-		"cost": 650,
+		"cost": 355,
 		"requiredTech": "Plastics",
-		"uniques": ["[60]% Strength <vs [Gunpowder] units>","[30]% Strength <vs [Siege] units>","[-1] Sight","Never appears as a Barbarian unit","[-70]% Strength <vs [Ranged Water] units>","[-80]% Strength <vs [Melee Water] units>"],
+		"uniques": ["[60]% Strength <vs [Gunpowder] units>","[30]% Strength <vs [Siege] units>","[-1] Sight","Never appears as a Barbarian unit","[-25]% Strength <vs [Ranged Water] units>","[-30]% Strength <vs [Melee Water] units>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 
@@ -193,7 +193,7 @@
 		"cost": 400,
 		"uniques": ["[+20]% Strength <when fighting in [Hill] tiles>","[15]% Strength <when fighting in [Hill] tiles> <when defending>","[-30]% Strength <when fighting in [Open terrain] tiles>","Double movement in [Hill]","Never appears as a Barbarian unit"],
 		"requiredTech": "Military Science",
-		"promotions": ["Mountaieer I","Mountaieer II"],
+		"promotions": ["Mountaieer I"],
 		"attackSound": "shot",
 		"obsoleteTech": "Plastics",
 		"upgradesTo": "Modern Mountaineer"
@@ -202,11 +202,11 @@
 		"name": "Modern Mountaineer",
 		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 60,
+		"strength": 55,
 		"cost": 750,
 		"uniques": ["[+25]% Strength <when fighting in [Hill] tiles>","[15]% Strength <when fighting in [Hill] tiles> <when defending>","[-25]% Strength <when fighting in [Open terrain] tiles>","Double movement in [Hill]","Never appears as a Barbarian unit"],
 		"requiredTech": "Plastics",
-		"promotions": ["Mountaieer I","Mountaieer II"],
+		"promotions": ["Mountaieer I"],
 		"attackSound": "shot"
 	},
 	{
