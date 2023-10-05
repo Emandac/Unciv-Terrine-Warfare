@@ -124,9 +124,9 @@ TileSets/FantasyHex/Tiles/Anti-Tank Ditch
   index: -1
 TileSets/FantasyHex/Tiles/Barbed wire
   rotate: false
-  xy: 1608, 1528
-  size: 32, 28
-  orig: 32, 28
+  xy: 1608, 1524
+  size: 32, 32
+  orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Bunker
@@ -178,11 +178,18 @@ TileSets/FantasyHex/Tiles/Trenches
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Wooden barricades
+TileSets/FantasyHex/Tiles/TrenchesV2
   rotate: false
   xy: 84, 4
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Wooden barricades
+  rotate: false
+  xy: 524, 480
+  size: 32, 32
+  orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/A.A.C
