@@ -20,6 +20,13 @@
 		"requiredTech": "Adanced Medication"
     },
 	{
+		"name": "Political Power of the start",
+		"requiredTech": "Railroads",
+		"cost": 1,
+		"uniques": ["Provides [2] [Political Power]"]
+
+	},
+	{
 		"name": "Political Power",
 		"isNationalWonder": true,
 		"requiredTech": "Political Power",
@@ -43,5 +50,12 @@
 		"cost": 1,
 		"uniques": ["Consumes [1] [Political Power]","Only available <in cities without a [Civilian Factory]>","[+15]% Production when constructing [Land] units [in this city]"]
 
-	}
+	},
+	{
+		"name": "Military training center",
+		"cost": 450,
+		"uniques": ["All newly-trained [Gunpowder] units [in this city] receive the [in thenching] promotion"
+		,"Consumes [1] [Political Power]"],
+		"requiredTech": "Railroads"
+    }
  ]

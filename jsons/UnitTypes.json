@@ -52,5 +52,12 @@
         "name": "Modern Armored",
         "movementType": "Land",
         "uniques": ["[+30]% Strength <vs [Light Armored] units> <when defending>","[+15]% Strength <vs [Armored] units> <when defending>","[+10]% Strength <vs [Heavy Armored] units> <when defending>","[+10]% Strength <vs [Gunpowder] units> <when defending>"]
+    },
+    {
+        "name": "city center cannon",
+        "movementType":"Land",
+        "uniques": ["[+40]% Strength <vs [Gunpowder] units> <when attacking>",
+        "[+125]% Strength <vs [Siege] units> <when attacking>",
+        "[+3] Range <for [city center cannon] units> <in [City center] tiles>"]
     }
 ]

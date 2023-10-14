@@ -302,9 +302,20 @@
 		"strength": 45,
 		"rangedStrength": 45,
 		"range": 1,
-		"cost": 750,
+		"cost": 550,
 		"requiredTech": "Railroads",
 		"uniques": ["[-1] Sight","[-125]% Strength <vs [Siege] units>","[-1] Range","[-55]% Strength <when fighting in [Open terrain] tiles> <when defending>"]
+	},
+	{
+		"name": "City center cannon",
+		"unitType": "city center cannon",
+		"movement": 1,
+		"strength": 40,
+		"rangedStrength": 50,
+		"range": 1,
+		"cost": 650,
+		"requiredTech": "Railroads",
+		"uniques": ["[-1] Sight","[125]% Strength <vs [Siege] units> <when defending>","[-1] Range"]
 	}
 ]
 

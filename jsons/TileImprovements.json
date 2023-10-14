@@ -55,7 +55,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired": "Nuclear Fission",
 		"turnsToBuild": 3,
-		"uniques": ["[-2 Production]", "Costs [3] [Gold] per turn","[+5 Happiness]","[+2 Food]","[+1 Culture]"]
+		"uniques": ["[-2 Production]", "Costs [8] [Gold] per turn","[+5 Happiness]","[+2 Food]","[+1 Culture]"]
 	},	{
 		"name": "Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Snow","Forest","Jungle"],
@@ -91,7 +91,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired":"Military Science",
 		"turnsToBuild": 2,
-		"uniques":["Can be built outside your borders","Gives a defensive bonus of [20]%"]
+		"uniques":["Can be built outside your borders","Gives a defensive bonus of [25]%"]
 	}
 ]
 

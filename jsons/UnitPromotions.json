@@ -131,6 +131,21 @@
 		"row": 4
 	},
 	{
+		"name":"in thenching",
+		"uniques":["Can build [Trenches] improvements on tiles"],
+		"column": 33,
+		"row": 1
+
+	},
+	{
+		"name":"making a Anti-Tank Ditch",
+		"uniques":["Can build [Anti-Tank Ditch] improvements on tiles"],
+		"unitTypes":["Anti-Tank Gun"],
+		"column": 34,
+		"row": 1
+
+	},
+	{
 		"name": "will to move",
 		"prerequisites": ["Shock II"],
 		"uniques": ["[1] additional attacks per turn"],
