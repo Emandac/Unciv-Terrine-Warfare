@@ -12,5 +12,25 @@
             "Occurs in chains at high elevations",
             "Always Fertility [-2] for Map Generation",
             "Considered [Undesirable] when determining start locations"]
-	}
+	},
+	{
+        "name": "Dead Lands",
+        "type": "Land",
+        "movementCost": 1,
+        "RGB": [189, 214, 255]
+    },
+	{
+        "name": "Dead Lands Forest",
+        "type": "Land",
+        "production": 1,
+        "movementCost": 1,
+        "RGB": [189, 214, 255]
+    },
+	{
+        "name": "Dead Lands Forest and dead crops..",
+        "type": "Land",
+        "production": 1,
+        "movementCost": 1,
+        "RGB": [189, 214, 255]
+    }
 ]
