@@ -58,6 +58,12 @@
         "movementType":"Land",
         "uniques": ["[+40]% Strength <vs [Gunpowder] units> <when attacking>",
         "[+125]% Strength <vs [Siege] units> <when attacking>",
-        "[+3] Range <for [city center cannon] units> <in [City center] tiles>"]
+        "[+3] Range <for [city center cannon] units> <in [City center] tiles>",
+        "[+3] Range <for [city center cannon] units> <in [Land Artillery] tiles>"]
+    },
+    {
+        "name": "Siege",
+        "movementType": "Land",
+        "uniques": ["[+1] Range <for [Siege] units> <in [Exteded siger] tiles>"]
     }
 ]

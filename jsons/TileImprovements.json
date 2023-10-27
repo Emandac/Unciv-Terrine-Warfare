@@ -99,6 +99,20 @@
 		"techRequired": "Railroads",
 		"turnsToBuild": 4,
 		"uniques": ["Gives a defensive bonus of [10]%"]
+	},
+	{
+		"name": "Land Artillery",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"techRequired": "Railroads",
+		"turnsToBuild": 5,
+		"uniques": ["Gives a defensive bonus of [30]%"]
+	},
+	{
+		"name": "Prison",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["[+7 Happiness]","[-5 Food]","[-7 Production]",
+	                "Gives a defensive bonus of [10]%",
+				    "Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	}
 ]
 

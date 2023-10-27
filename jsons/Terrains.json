@@ -27,7 +27,7 @@
         "RGB": [189, 214, 255]
     },
 	{
-        "name": "Dead Lands Forest and dead crops..",
+        "name": "Dead Lands Forest and woods",
         "type": "Land",
         "production": 1,
         "movementCost": 1,

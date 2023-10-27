@@ -174,7 +174,7 @@
 		"range": 2,
 		"cost": 290,
 		"requiredTech": "Replaceable Parts",
-		"uniques": ["[55]% Strength <vs [Gunpowder] units>","[15]% Strength <vs [Siege] units>","[-1] Sight","Never appears as a Barbarian unit","[-75]% Strength <vs [Ranged Water] units>","[-90]% Strength <vs [Melee Water] units>"],
+		"uniques": ["[55]% Strength <vs [Gunpowder] units> <when attacking>","[15]% Strength <vs [Siege] units> <when attacking>","[-1] Sight","Never appears as a Barbarian unit","[-75]% Strength <vs [Ranged Water] units>","[-90]% Strength <vs [Melee Water] units>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery",
 		"upgradesTo": "Mortar Team",
@@ -190,7 +190,23 @@
 		"range": 2,
 		"cost": 355,
 		"requiredTech": "Plastics",
-		"uniques": ["[60]% Strength <vs [Gunpowder] units>","[30]% Strength <vs [Siege] units>","[-1] Sight","Never appears as a Barbarian unit","[-25]% Strength <vs [Ranged Water] units>","[-30]% Strength <vs [Melee Water] units>"],
+		"uniques": ["[60]% Strength <vs [Gunpowder] units> <when attacking>","[30]% Strength <vs [Siege] units> <when attacking>","[-1] Sight","Never appears as a Barbarian unit","[-25]% Strength <vs [Ranged Water] units>","[-30]% Strength <vs [Melee Water] units>"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+
+
+	},
+	{
+		"name": "Mobile Mortar",
+		"unitType": "Light Armored",
+		"movement": 3,
+		"strength": 40,
+		"rangedStrength": 55,
+		"range": 2,
+		"cost": 625,
+		"requiredResource":"Oil",
+		"requiredTech": "Plastics",
+		"uniques": ["[+30]% Strength <vs [Gunpowder] units> <when attacking>","[+45]% Strength <vs [Ranged Gunpowder] units> <when attacking>","[60]% Strength <vs [Siege] units> <when attacking>","[-1] Sight","Never appears as a Barbarian unit","[-10]% Strength <vs [Ranged Water] units>","[-15]% Strength <vs [Melee Water] units>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 
@@ -225,10 +241,11 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 325,
-		"uniques": ["Can build [Trenches] improvements on tiles", "Can build [Anti-Tank Ditch] improvements on tiles",
+		"uniques": ["Never appears as a Barbarian unit","Can build [Trenches] improvements on tiles", "Can build [Anti-Tank Ditch] improvements on tiles",
 		"Can build [Bunker] improvements on tiles","Can build [Coastal Bunker] improvements on tiles",
 		"Can build [Medical Testes] improvements on tiles", "Can build [Outpost] improvements on tiles",
 		"Can build [Land mine] improvements on tiles", "Can build [Barbed wire] improvements on tiles",
+		"Can build [Exteded siger] improvements on tiles","Can build [Land Artillery] improvements on tiles",
 		"[-50]% tile improvement construction time"],
 		"requiredTech":"Railroads"
 
@@ -239,11 +256,12 @@
 		"movement": 2,
 		"strength": 30,
 		"cost": 450,
-		"uniques": ["Can build [Trenches] improvements on tiles", "Can build [Anti-Tank Ditch] improvements on tiles",
+		"uniques": ["Never appears as a Barbarian unit","Can build [Trenches] improvements on tiles", "Can build [Anti-Tank Ditch] improvements on tiles",
 		"Can build [Bunker] improvements on tiles",
 		"Can build [Medical Testes] improvements on tiles", "Can build [Outpost] improvements on tiles",
 		"Can build [Land mine] improvements on tiles","Can build [Barbed wire] improvements on tiles",
-		"Can build [Coastal Bunker] improvements on tiles",
+		"Can build [Coastal Bunker] improvements on tiles","Can build [Exteded siger] improvements on tiles",
+		"Can build [Land Artillery] improvements on tiles",
 		"[-25]% tile improvement construction time"],
 		"requiredTech":"Railroads",
 		"attackSound": "shot"
@@ -304,7 +322,8 @@
 		"range": 1,
 		"cost": 550,
 		"requiredTech": "Railroads",
-		"uniques": ["[-1] Sight","[-125]% Strength <vs [Siege] units>","[-1] Range","[-55]% Strength <when fighting in [Open terrain] tiles> <when defending>"]
+		"uniques": ["[-1] Sight","[-125]% Strength <vs [Siege] units>","[-1] Range","[-55]% Strength <when fighting in [Open terrain] tiles> <when defending>",
+		            "Never appears as a Barbarian unit"]
 	},
 	{
 		"name": "City center cannon",
@@ -315,7 +334,28 @@
 		"range": 1,
 		"cost": 650,
 		"requiredTech": "Railroads",
-		"uniques": ["[-1] Sight","[125]% Strength <vs [Siege] units> <when defending>","[-1] Range"]
+		"uniques": ["[-1] Sight","[125]% Strength <vs [Siege] units> <when defending>","[-1] Range","Never appears as a Barbarian unit"]
+	},
+	{
+		"name": "militia",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 35,
+		"cost": 250,
+		"requiredTech": "Replaceable Parts",
+		"uniques": ["[+45]% Strength <vs [Gunpowder] units> <when fighting in [Friendly Land] tiles>","Never appears as a Barbarian unit"],
+		"obsoleteTech": "Plastics",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Prison Warden",
+		"requiredTech": "Industrialization",
+		"requiredResource": "Political Power",
+		"unitType": "Civilian",
+		"cost": 300,
+		"movement": 2,
+		"uniques": ["Can instantly construct a [Prison] improvement <by consuming this unit>"]
+		
 	}
 ]
 
