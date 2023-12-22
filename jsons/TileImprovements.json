@@ -51,6 +51,14 @@
 		]
 	},
 	{
+		"name": "Coastal Bunker",
+		"terrainsCanBeBuiltOn":["Hill"],
+		"techRequired": "Railroads",
+		"turnsToBuild": 5,
+		"uniques": ["Can only be built on [Coastal] tiles","Gives a defensive bonus of [40]%","[+4] Sight <for [Coastal Bunker Arillery] units>"]
+
+	},
+	{
 		"name": "Travel tube",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired": "Nuclear Fission",
@@ -64,14 +72,7 @@
 		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [45]%"],
 		"shortcutKey": "O"
 	},
-	{
-		"name": "Coastal Bunker",
-		"terrainsCanBeBuiltOn":["Hill"],
-		"techRequired": "Railroads",
-		"turnsToBuild": 5,
-		"uniques": ["Can only be built on [Coastal] tiles","Gives a defensive bonus of [40]%","[+4] Sight <for [Coastal Bunker Arillery] units>"]
 
-	},
 	{
 		"name": "Medical Testes",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -98,7 +99,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired": "Railroads",
 		"turnsToBuild": 4,
-		"uniques": ["Gives a defensive bonus of [10]%"]
+		"uniques": ["Gives a defensive bonus of [10]%","Can be built outside your borders"]
 	},
 	{
 		"name": "Land Artillery",
@@ -110,7 +111,7 @@
 	{
 		"name": "Prison",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["[+7 Happiness]","[-5 Food]","[-7 Production]",
+		"uniques": ["[+3 Happiness]","[-5 Food]","[-9 Production]",
 	                "Gives a defensive bonus of [10]%",
 				    "Removes removable features when built","Pillaging this improvement yields approximately [+20 Gold]"]
 	}

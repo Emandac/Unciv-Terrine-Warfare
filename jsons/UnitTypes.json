@@ -4,7 +4,7 @@
         "movementType": "Land",
         "uniques": ["[+15]% Strength <vs [Mounted] units> <in [Wooden Barricade] tiles> <when defending>","[+10]% Strength <vs [Gunpowder] units> <in [Barbed wire] tiles> <when defending>","[+15]% Strength <vs [Mounted] units> <in [Barbed wire] tiles> <when defending>","[35]% Strength <when fighting in [Bunker] tiles> <when defending>",
         "[+25] HP when healing <in [Medical Testes] tiles>","[+25]% Strength <vs [Ranged Gunpowder] units> <in [Trenches] tiles> <when defending>","[+20]% Strength <vs [Siege] units> <in [Trenches] tiles> <when defending>",
-        "[+25]% Strength <vs [Gunpowder] units> <in [Trenches] tiles> <when defending>"]
+        "[+25]% Strength <vs [Gunpowder] units> <in [Trenches] tiles> <when defending>","Can carry [1] [Grenades] units"]
     },
     {
         "name": "Ranged Gunpowder",
@@ -41,17 +41,17 @@
     {
         "name": "Armored",
         "movementType": "Land",
-        "uniques": ["[+10]% Strength <vs [Gunpowder] units> <when defending>"]
+        "uniques": ["[+10]% Strength <vs [Gunpowder] units> <when defending>","Can carry [1] [Armored equipment] units"]
     },
     {
         "name": "Heavy Armored",
         "movementType": "Land",
-        "uniques": ["[+10]% Strength <vs [Armored] units> <when defending>","[+10]% Strength <vs [Gunpowder] units> <when defending>"]
+        "uniques": ["[+10]% Strength <vs [Armored] units> <when defending>","[+10]% Strength <vs [Gunpowder] units> <when defending>","Can carry [1] [Armored equipment] units"]
     },
     {
         "name": "Modern Armored",
         "movementType": "Land",
-        "uniques": ["[+30]% Strength <vs [Light Armored] units> <when defending>","[+15]% Strength <vs [Armored] units> <when defending>","[+10]% Strength <vs [Heavy Armored] units> <when defending>","[+10]% Strength <vs [Gunpowder] units> <when defending>"]
+        "uniques": ["[+30]% Strength <vs [Light Armored] units> <when defending>","[+15]% Strength <vs [Armored] units> <when defending>","[+10]% Strength <vs [Heavy Armored] units> <when defending>","[+10]% Strength <vs [Gunpowder] units> <when defending>","Can carry [1] [Armored equipment] units"]
     },
     {
         "name": "city center cannon",
@@ -65,5 +65,20 @@
         "name": "Siege",
         "movementType": "Land",
         "uniques": ["[+1] Range <for [Siege] units> <in [Exteded siger] tiles>"]
+    },
+    {
+        "name": "Grenades",
+        "movementType": "Air",
+        "uniques": ["Self-destructs when attacking","[+125]% Strength <for [Grenades] units> <in [City center] tiles> <when attacking>"]
+    },
+    {
+        "name": "Gunpowder equipment",
+        "movementType": "Air",
+        "uniques": ["[+80]% Strength <for [Gunpowder equipment] units> <in [City center] tiles> <when attacking>"]
+    },
+    {
+        "name": "Armored equipment",
+        "movementType": "Air",
+        "uniques": []
     }
 ]

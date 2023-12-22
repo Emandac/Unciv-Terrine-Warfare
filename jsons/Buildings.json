@@ -21,6 +21,7 @@
     },
 	{
 		"name": "Political Power of the start",
+		"isNationalWonder": true,
 		"requiredTech": "Railroads",
 		"cost": 1,
 		"uniques": ["Provides [2] [Political Power]"]
@@ -39,7 +40,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Political Power",
 		"cost": 1,
-		"uniques": ["Consumes [1] [Political Power]","Only available <in cities without a [War Plan Factory]>","[+20]% Production when constructing [All] buildings [in this city]"]
+		"uniques": ["Consumes [2] [Political Power]","Only available <in cities without a [War Plan Factory]>","[+20]% Production when constructing [All] buildings [in this city]"]
 
 	},
 	{
@@ -48,7 +49,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Political Power",
 		"cost": 1,
-		"uniques": ["Consumes [1] [Political Power]","Only available <in cities without a [Civilian Factory]>","[+15]% Production when constructing [Land] units [in this city]"]
+		"uniques": ["Consumes [2] [Political Power]","Only available <in cities without a [Civilian Factory]>","[+15]% Production when constructing [Land] units [in this city]"]
 
 	},
 	{
