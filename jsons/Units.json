@@ -77,7 +77,7 @@
 		"strength": 90,
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit","[+10]% Strength <vs [Gunpowder] units>","[10]% Strength <vs [Ranged Gunpowder] units>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -87,7 +87,7 @@
 		"strength": 35,
 		"cost": 275,
 		"requiredTech": "Combustion",
-		"uniques": ["Can move after attacking","[+1] Sight","No defensive terrain bonus", "Never appears as a Barbarian unit","[+40]% Strength <vs [Gunpowder] units>","[-55]% Strength <vs [Heavy Armored] units> <when attacking>","[-35]% Strength <vs [Armored] units> <when attacking>"],
+		"uniques": ["Can move after attacking","[+1] Sight","No defensive terrain bonus", "Never appears as a Barbarian unit","[+40]% Strength <vs [Gunpowder] units>","[40]% Strength <vs [Ranged Gunpowder] units>","[-55]% Strength <vs [Heavy Armored] units> <when attacking>","[-35]% Strength <vs [Armored] units> <when attacking>"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -99,7 +99,7 @@
 		"requiredTech": "Combustion",
 		"upgradesTo": "Tank",
 		"requiredResource": "Oil",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","[+35]% Strength <vs [Light Armored] units> <when attacking>","[+60]% Strength <vs [Gunpowder] units> <when attacking>","[-55]% Strength <vs [Heavy Armored] units> <when attacking>",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","[+35]% Strength <vs [Light Armored] units> <when attacking>","[+60]% Strength <vs [Gunpowder] units> <when attacking>","[+65]% Strength <vs [Ranged Gunpowder] units> <when attacking>","[-55]% Strength <vs [Heavy Armored] units> <when attacking>",
 		"[-35]% Strength <vs [Armored] units> <when attacking>"],
 		"attackSound": "tankshot"
 	},
@@ -138,8 +138,9 @@
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor",
-		"range": 2,
-		"uniques": ["[5]% Strength <vs [Anti-Tank Gun] units> <when defending>","[+10]% Strength <vs [Gunpowder] units> <when attacking>","[+35]% Strength <vs [Armored] units> <when attacking>","[+25]% Strength <vs [Armored] units> <when defending>","[+55]% Strength <vs [Light Armored] units> <when defending>","[75]% Strength <vs [Light Armored] units> <when attacking>","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","Unbuildable","Unpurchasable"],
+		"range": 1,
+		"uniques": ["[5]% Strength <vs [Anti-Tank Gun] units> <when defending>","[+10]% Strength <vs [Gunpowder] units> <when attacking>","[+10]% Strength <vs [Ranged Gunpowder] units> <when attacking>",
+		"[+35]% Strength <vs [Armored] units> <when attacking>","[+25]% Strength <vs [Armored] units> <when defending>","[+55]% Strength <vs [Light Armored] units> <when defending>","[75]% Strength <vs [Light Armored] units> <when attacking>","Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit","Unbuildable","Unpurchasable"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -174,7 +175,8 @@
 		"range": 2,
 		"cost": 290,
 		"requiredTech": "Replaceable Parts",
-		"uniques": ["[55]% Strength <vs [Gunpowder] units> <when attacking>","[15]% Strength <vs [Siege] units> <when attacking>","[-1] Sight","Never appears as a Barbarian unit","[-75]% Strength <vs [Ranged Water] units>","[-90]% Strength <vs [Melee Water] units>"],
+		"uniques": ["[55]% Strength <vs [Gunpowder] units> <when attacking>","[15]% Strength <vs [Siege] units> <when attacking>","[-1] Sight","Never appears as a Barbarian unit","[-75]% Strength <vs [Ranged Water] units>","[-90]% Strength <vs [Melee Water] units>",
+		"[55]% Strength <vs [Ranged Gunpowder] units> <when attacking>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery",
 		"upgradesTo": "Mortar Team",
@@ -190,7 +192,8 @@
 		"range": 2,
 		"cost": 355,
 		"requiredTech": "Plastics",
-		"uniques": ["[60]% Strength <vs [Gunpowder] units> <when attacking>","[30]% Strength <vs [Siege] units> <when attacking>","[-1] Sight","Never appears as a Barbarian unit","[-25]% Strength <vs [Ranged Water] units>","[-30]% Strength <vs [Melee Water] units>"],
+		"uniques": ["[60]% Strength <vs [Gunpowder] units> <when attacking>","[30]% Strength <vs [Siege] units> <when attacking>","[-1] Sight","Never appears as a Barbarian unit","[-25]% Strength <vs [Ranged Water] units>","[-30]% Strength <vs [Melee Water] units>",
+		"[55]% Strength <vs [Ranged Gunpowder] units> <when attacking>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -201,10 +204,11 @@
 		"strength": 40,
 		"rangedStrength": 55,
 		"range": 2,
-		"cost": 325,
+		"cost": 525,
 		"requiredResource":"Oil",
 		"requiredTech": "Plastics",
-		"uniques": ["[+30]% Strength <vs [Gunpowder] units> <when attacking>","[+45]% Strength <vs [Ranged Gunpowder] units> <when attacking>","[60]% Strength <vs [Siege] units> <when attacking>","[-1] Sight","Never appears as a Barbarian unit","[-10]% Strength <vs [Ranged Water] units>","[-15]% Strength <vs [Melee Water] units>"],
+		"uniques": ["[+30]% Strength <vs [Gunpowder] units> <when attacking>","[+45]% Strength <vs [Ranged Gunpowder] units> <when attacking>","[60]% Strength <vs [Siege] units> <when attacking>","[-1] Sight","Never appears as a Barbarian unit","[-10]% Strength <vs [Ranged Water] units>","[-15]% Strength <vs [Melee Water] units>",
+		"[25]% Strength <vs [Ranged Gunpowder] units> <when attacking>"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -230,6 +234,30 @@
 		"uniques": ["[+25]% Strength <when fighting in [Hill] tiles>","[15]% Strength <when fighting in [Hill] tiles> <when defending>","[-25]% Strength <when fighting in [Open terrain] tiles>","Double movement in [Hill]","Never appears as a Barbarian unit"],
 		"requiredTech": "Plastics",
 		"promotions": ["Mountaieer I"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Winter soldier",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 40,
+		"cost": 450,
+		"uniques": ["Double movement in [Tundra]","Never appears as a Barbarian unit"],
+		"requiredTech": "Military Science",
+		"promotions": ["Winter fighter I"],
+		"attackSound": "shot",
+		"obsoleteTech": "Plastics",
+		"upgradesTo": "Modern Winter soldier"
+	},
+	{
+		"name": "Modern Winter soldier",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 55,
+		"cost": 550,
+		"uniques": ["Double movement in [Snow]","Double movement in [Tundra]","Never appears as a Barbarian unit"],
+		"requiredTech": "Plastics",
+		"promotions": ["Winter fighter I"],
 		"attackSound": "shot"
 	},
 	{
@@ -448,11 +476,11 @@
 	{
 		"name": "Heavy machine gun",
 		"unitType": "Armored equipment",
-		"requiredTech": "Replaceable Parts",
-		"cost": 750,
+		"requiredTech": "Combustion",
+		"cost": 700,
 		"range": 1,
 		"movement": 1,
-		"strength": 40,
+		"strength": 55,
 		"rangedStrength": 55,
 		"attackSound": "machinegun",
 		"uniques": ["[+45]% Strength <vs [Gunpowder] units> <when attacking>",
@@ -460,6 +488,23 @@
 		"civilopediaText": [
 			{"text": "equipment that can be use on Armored,Heavy Armored,Modern Armored"},
 			{"text": "really good at damaging Gunpowder units."}
+		]
+	},
+	{
+		"name": "Heavy cannon",
+		"unitType": "Armored equipment",
+		"requiredTech": "Combustion",
+		"cost": 850,
+		"range": 1,
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 55,
+		"attackSound": "tankshot",
+		"uniques": ["[+60]% Strength <vs [Armored] units> <when attacking>",
+		"[+45]% Strength <vs [Heavy Armored] units> <when attacking>"],
+		"civilopediaText": [
+			{"text": "equipment that can be use on Armored,Heavy Armored,Modern Armored"},
+			{"text": "really good at damaging Armored, Heavy Armored units."}
 		]
 	}
 ]

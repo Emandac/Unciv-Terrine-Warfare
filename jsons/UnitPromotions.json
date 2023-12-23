@@ -93,6 +93,21 @@
         "row": 3
 	},
 	{
+		"name": "Winter fighter I",
+		"uniques": ["[+20]% Strength <when fighting in [Tundra] tiles>","[+10]% Strength <when fighting in [Snow] tiles>"],
+		"unitTypes": ["Sword","Gunpowder"],
+        "column": 35,
+        "row": 1
+	},
+	{
+		"name": "Winter fighter II",
+		"prerequisites": ["Winter fighter I"],
+		"uniques": ["[+20]% Strength <when fighting in [Snow] tiles>","[+15]% Strength <when fighting in [Snow] tiles>"],
+		"unitTypes": ["Sword","Gunpowder"],
+        "column": 35,
+        "row": 2
+	},
+	{
 		"name": "one more Katyusha rocket",
 		"uniques": ["Can carry [1] extra [Katyusha Missile] units"],
 		"unitTypes": ["Katyusha rocket launchers"],
@@ -109,10 +124,18 @@
 	},
 	{
 		"name": "Overdrive",
-		"prerequisites": ["Shock II"],
+		"prerequisites": ["Shock III"],
 		"uniques": ["[+1] Movement"],
 		"unitTypes": ["Light Armored","Heavy Armored","Modern Armored"],
         "column": 30,
+        "row": 2
+	},
+	{
+		"name": "Exteded range",
+		"prerequisites": ["Shock I"],
+		"uniques": ["[+1] Range"],
+		"unitTypes": ["Heavy Armored"],
+        "column": 31,
         "row": 2
 	},
 	{
@@ -147,7 +170,7 @@
 	},
 	{
 		"name": "will to move",
-		"prerequisites": ["Shock II"],
+		"prerequisites": ["Shock III"],
 		"uniques": ["[1] additional attacks per turn"],
 		"unitTypes": ["Light Armored","Heavy Armored","Modern Armored"],
         "column": 31,

@@ -109,421 +109,463 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 ImprovementIcons/Anti-Tank Ditch
   rotate: false
-  xy: 524, 1320
+  xy: 1044, 1821
   size: 251, 201
   orig: 251, 201
   offset: 0, 0
   index: -1
 ImprovementIcons/Barbed wire
   rotate: false
-  xy: 4, 273
+  xy: 524, 774
   size: 229, 220
   orig: 229, 220
   offset: 0, 0
   index: -1
 ImprovementIcons/Bunker
   rotate: false
-  xy: 524, 879
+  xy: 1510, 1356
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Exteded siger
   rotate: false
-  xy: 4, 40
+  xy: 524, 541
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 ImprovementIcons/Land mine
   rotate: false
-  xy: 1044, 1827
+  xy: 4, 248
   size: 236, 214
   orig: 236, 214
   offset: 0, 0
   index: -1
 ImprovementIcons/Medical Testes
   rotate: false
-  xy: 1277, 1583
+  xy: 1769, 1797
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 ImprovementIcons/Outpost
   rotate: false
-  xy: 720, 439
+  xy: 990, 498
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ImprovementIcons/Prison
   rotate: false
-  xy: 1743, 1583
+  xy: 1743, 1564
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 ImprovementIcons/Travel tube
   rotate: false
-  xy: 524, 1529
+  xy: 4, 470
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 ImprovementIcons/Wooden barricades
   rotate: false
-  xy: 678, 23
+  xy: 689, 120
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Political Power
   rotate: false
-  xy: 474, 255
+  xy: 524, 333
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 ResourceIcons/Rapimuim
   rotate: false
-  xy: 783, 1296
+  xy: 1044, 1355
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Anti-Tank Ditch
   rotate: false
-  xy: 940, 1027
+  xy: 940, 500
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Barbed wire
   rotate: false
-  xy: 1987, 1973
+  xy: 481, 430
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Bunker
   rotate: false
-  xy: 44, 4
+  xy: 897, 292
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Coastal Bunker
   rotate: false
-  xy: 1084, 1558
+  xy: 2002, 1958
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Dead Lands
   rotate: false
-  xy: 940, 991
+  xy: 1926, 1492
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Dead Lands Forest
   rotate: false
-  xy: 1987, 1937
+  xy: 1148, 426
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Dead Lands Forest and woods
   rotate: false
-  xy: 84, 4
+  xy: 481, 394
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Land Artillery
   rotate: false
-  xy: 940, 951
+  xy: 2002, 1918
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Land mine
   rotate: false
-  xy: 1987, 1901
+  xy: 1926, 1456
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Medical Testes
   rotate: false
-  xy: 124, 4
+  xy: 1148, 390
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Outpost
   rotate: false
-  xy: 1987, 1865
+  xy: 2002, 1882
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Prison
   rotate: false
-  xy: 940, 875
+  xy: 1926, 1416
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Rapimuim
   rotate: false
-  xy: 164, 4
+  xy: 1148, 354
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Titanium
   rotate: false
-  xy: 1204, 1558
+  xy: 897, 184
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Travel tube
   rotate: false
-  xy: 1987, 1829
+  xy: 2002, 1846
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Trenches
   rotate: false
-  xy: 890, 403
+  xy: 1926, 1380
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/TrenchesV2
   rotate: false
-  xy: 890, 367
+  xy: 1148, 318
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/WW1 Soil
   rotate: false
-  xy: 890, 331
+  xy: 897, 148
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Wooden barricades
   rotate: false
-  xy: 890, 291
+  xy: 2002, 1806
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/A.A.C
   rotate: false
-  xy: 4, 4
+  xy: 2002, 1994
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/A.R.C
   rotate: false
-  xy: 1987, 2013
+  xy: 1926, 1528
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/A.R.C2
   rotate: false
-  xy: 1044, 1558
+  xy: 1148, 462
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Heavy Tank
   rotate: false
-  xy: 1124, 1558
+  xy: 897, 256
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mortar Men
   rotate: false
-  xy: 1164, 1558
+  xy: 481, 358
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mortar Team2
   rotate: false
-  xy: 1164, 1558
+  xy: 481, 358
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Mountaineer
   rotate: false
-  xy: 940, 915
+  xy: 897, 220
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 UnitIcons/C4
   rotate: false
-  xy: 524, 1087
+  xy: 1044, 1588
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 UnitIcons/Combat Engineer
   rotate: false
-  xy: 512, 671
+  xy: 1718, 1356
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Engineer
   rotate: false
-  xy: 1044, 1594
+  xy: 4, 15
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 UnitIcons/Heavy Tank
   rotate: false
-  xy: 512, 463
+  xy: 1265, 1123
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+UnitIcons/Heavy cannon
+  rotate: false
+  xy: 757, 536
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
 UnitIcons/Heavy machine gun
   rotate: false
-  xy: 237, 35
+  xy: 248, 237
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 UnitIcons/Katyusha Missile
   rotate: false
-  xy: 1288, 1816
+  xy: 237, 4
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 UnitIcons/Katyusha anti-Bunker Missile
   rotate: false
-  xy: 1521, 1816
+  xy: 1303, 1797
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 UnitIcons/Katyusha anti-Helicopter Missile
   rotate: false
-  xy: 732, 855
+  xy: 1032, 914
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Katyusha rocket launcher
   rotate: false
-  xy: 1754, 1816
+  xy: 1536, 1797
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 UnitIcons/Light Tank
   rotate: false
-  xy: 720, 647
+  xy: 994, 706
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-UnitIcons/Modern Mountaineer
+UnitIcons/Mobile Mortar
   rotate: false
-  xy: 4, 1529
+  xy: 4, 1510
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
+UnitIcons/Modern Mountaineer
+  rotate: false
+  xy: 4, 990
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+UnitIcons/Modern Winter soldier
+  rotate: false
+  xy: 1277, 1564
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
 UnitIcons/Mountaineer
   rotate: false
-  xy: 1510, 1583
+  xy: 1510, 1564
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 UnitIcons/Prison Warden
   rotate: false
-  xy: 470, 47
+  xy: 732, 328
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Scout Car
   rotate: false
-  xy: 682, 231
+  xy: 940, 290
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/The Mills bomb
   rotate: false
-  xy: 4, 501
+  xy: 524, 1002
   size: 500, 500
   orig: 500, 500
   offset: 0, 0
   index: -1
+UnitIcons/Winter soldier
+  rotate: false
+  xy: 481, 125
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 UnitIcons/militia
   rotate: false
-  xy: 757, 1063
+  xy: 1277, 1331
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Forest Specialisation I
   rotate: false
-  xy: 241, 268
+  xy: 761, 769
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Forest Specialisation II
   rotate: false
-  xy: 241, 268
+  xy: 761, 769
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Forest Specialisation III
   rotate: false
-  xy: 241, 268
+  xy: 761, 769
   size: 225, 225
   orig: 225, 225
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Mountaieer I
   rotate: false
-  xy: 4, 1009
+  xy: 524, 1510
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Mountaieer II
   rotate: false
-  xy: 4, 1009
+  xy: 524, 1510
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Mountaieer III
   rotate: false
-  xy: 4, 1009
+  xy: 524, 1510
   size: 512, 512
   orig: 512, 512
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Winter fighter I
+  rotate: false
+  xy: 1032, 1122
+  size: 225, 225
+  orig: 225, 225
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Winter fighter II
+  rotate: false
+  xy: 1032, 1122
+  size: 225, 225
+  orig: 225, 225
   offset: 0, 0
   index: -1
